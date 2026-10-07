@@ -15,16 +15,19 @@ Use lowercase kebab-case and a short product or purpose name: `barbeato`, `weath
 - Pin only runnable, documented projects with useful evidence. Do not pin this template or account configuration repositories.
 - State prototype, demo, deployed or production status precisely. A static preview does not establish a working backend.
 
-## Before publishing
+## Mandatory before publishing
 - Replace all placeholders and broken links.
 - Verify setup on a clean checkout and record real verification commands/results.
 - Use synthetic demo data. Remove credentials, personal records and proprietary material, including from history.
 - Include screenshots only of working features and describe known gaps.
 - Separate personal work from team contributions and third-party models.
-- Confirm rights to source, assets and data before choosing a project license.
+- Choose and document a license for this specific project before publishing. Confirm rights to source, assets and data first.
 
 ## License choices
-This documentation starter uses MIT. For a new project, make a deliberate license choice before publication: MIT for code you own and intend to allow others to reuse; retain restrictive rights for client/proprietary work; preserve third-party license notices. Public visibility alone does not grant a reuse license. Do not apply MIT automatically to client code, datasets, model weights or assets.
+No project license is preselected or included in this template. Choosing a license is a mandatory publication step. Use MIT only for code you own and intend to allow others to reuse; retain restrictive rights for client/proprietary work and preserve third-party license notices. Public visibility alone does not grant a reuse license. Do not apply MIT automatically to client code, datasets, model weights or assets.
 
 ## Files
-`PROJECT_README.md` is the project README starter. `.gitignore` covers common Python/JavaScript development artifacts. Account-wide contribution and issue/PR templates live in the `.github` repository.
+`PROJECT_README.md` is the project README starter. `.gitignore` covers common Python/Flask and JavaScript/Node development artifacts without excluding dependency lockfiles. `.env.example` contains safe configuration examples, not secrets. `.editorconfig` keeps text formatting consistent. Account-wide contribution and issue/PR templates live in the `.github` repository.
+
+## First project and releases
+Keep a project private until its documentation and demo are ready. Use an original identity you own for a fictional demo. If using an existing brand such as BARBEATO, clearly label it **Unofficial Portfolio Concept** and do not imply a client relationship or endorsement. Add a release/version only when there is a working, verified milestone; do not invent versioned deliverables.

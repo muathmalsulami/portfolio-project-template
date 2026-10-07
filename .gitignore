@@ -11,6 +11,12 @@ __pycache__/
 .venv/
 venv/
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+*.egg-info/
+instance/
 .coverage
 htmlcov/
 
@@ -19,6 +25,12 @@ node_modules/
 dist/
 build/
 coverage/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.vite/
+out/
 
 # Local output and editors
 *.log
@@ -26,5 +38,7 @@ coverage/
 Thumbs.db
 .idea/
 .vscode/
+*.swp
+*.swo
 
 # Keep dependency lockfiles under version control.
