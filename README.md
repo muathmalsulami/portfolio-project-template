@@ -16,6 +16,8 @@ Use lowercase kebab-case and a short product or purpose name: `barbeato`, `weath
 - State prototype, demo, deployed or production status precisely. A static preview does not establish a working backend.
 
 ## Mandatory before publishing
+Use [PUBLISHING_CHECKLIST.md](PUBLISHING_CHECKLIST.md) as the publication gate and [ENGINEERING_STANDARDS.md](ENGINEERING_STANDARDS.md) for security, Actions and branch protection. These are standards to verify per project, not claims that controls are already enabled.
+
 - Replace all placeholders and broken links.
 - Verify setup on a clean checkout and record real verification commands/results.
 - Use synthetic demo data. Remove credentials, personal records and proprietary material, including from history.
